@@ -16,6 +16,7 @@ def take_a_number(deli, person)
   
 end
 
-def now_serving()
+def now_serving(deli)
+  
 end
 end
