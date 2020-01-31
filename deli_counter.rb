@@ -1,7 +1,11 @@
 def line(deli)
+ def line(deli)
  if deli.length == 0
-  puts "The line is currently empty."
-end
+ puts "The line is currently empty"
+ else
+ deli.each_with_index do |person, i|
+ puts "#{i}+1. #{person}"
+ end
 
 end
 
