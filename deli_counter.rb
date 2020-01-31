@@ -2,4 +2,7 @@ def line(deli)
 
 end
 
-def 
+def take_a_number()
+  
+end
+
