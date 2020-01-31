@@ -10,7 +10,8 @@ def line(deli)
  end
 end
 
-def take_a_number()
+def take_a_number(ticket)
+  if ticket.length == 0
   
 end
 
