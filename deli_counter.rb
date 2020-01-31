@@ -4,7 +4,9 @@ def line(deli)
  else
    str = "The line is currently:"
    each.with_index(1) do |person, i|
-     str += "#{i}.
+     str += "#{i}. #{person}"
+   end
+   puts str
 end
 
 
